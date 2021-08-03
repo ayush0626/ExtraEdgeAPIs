@@ -14,20 +14,6 @@ namespace ExtraEdge.Repository.Services
         //{
         //    this._mobileOwnerContext = mobileOwnerContext;
         //}
-        public void Add(GeneratedReportModel entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(GeneratedReportModel entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public GeneratedReportModel Get(long id)
-        {
-            throw new NotImplementedException();
-        }
 
         public async Task<IEnumerable<GeneratedReportModel>> GetAllAsync()
         {
@@ -36,11 +22,6 @@ namespace ExtraEdge.Repository.Services
 
             //right getting list of all records avaiable
             return MockData.GetReportDataList();
-        }
-
-        public void Update(GeneratedReportModel dbEntity, GeneratedReportModel entity)
-        {
-            throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<GeneratedReportModel>> GetAllAsync(int month)
